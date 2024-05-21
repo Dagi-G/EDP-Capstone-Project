@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "sockDetails": {
+            "Size": "Medium",
+            "Color": "Yellow",
+            "Pattern": "Solid",
+            "Material": "Cotton",
+            "Condition": "New",
+            "ForFoot": "Left"
+        },
+        "additionalDetails": {
+            "WaterResistant": "No",
+            "Padded": "No",
+            "AntiBacterial": "No"
+        }
+    },
+    {
+        "id": 2,
+        "sockDetails": {
+            "Size": "Small",
+            "Color": "Yellow",
+            "Pattern": "Striped",
+            "Material": "Polyester",
+            "Condition": "New",
+            "ForFoot": "Universal"
+        },
+        "additionalDetails": {
+            "WaterResistant": "Yes",
+            "Padded": "Yes",
+            "AntiBacterial": "Yes"
+        }
+    },
+    {
+        "id": 3,
+        "sockDetails": {
+            "Size": "Small",
+            "Color": "Yellow",
+            "Pattern": "Duck",
+            "Material": "Wool",
+            "Condition": "Used",
+            "ForFoot": "Universal"
+        },
+        "additionalDetails": {
+            "WaterResistant": "No",
+            "Padded": "No",
+            "AntiBacterial": "Yes"
+        }
+    },
+    {
+        "id": 4,
+        "sockDetails": {
+            "Size": "Small",
+            "Color": "Blue",
+            "Pattern": "Duck",
+            "Material": "Bamboo",
+            "Condition": "Refurbished",
+            "ForFoot": "Right"
+        },
+        "additionalDetails": {
+            "WaterResistant": "No",
+            "Padded": "No",
+            "AntiBacterial": "No"
+        }
+    },
+    {
+        "id": 5,
+        "sockDetails": {
+            "Size": "Small",
+            "Color": "Yellow",
+            "Pattern": "Solid",
+            "Material": "Wool",
+            "Condition": "Refurbished",
+            "ForFoot": "Left"
+        },
+        "additionalDetails": {
+            "WaterResistant": "Yes",
+            "Padded": "No",
+            "AntiBacterial": "Yes"
+        }
+    }
+]
