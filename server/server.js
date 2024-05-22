@@ -23,7 +23,7 @@ const db = client.db(dbName);
 app.get('/socks', async(req, res) => {
     const sockCollection = db.collection(process.env.SOCKS_COLLECTION);
     const socks = await sockCollection.find({}).toArray();
-    res.send(socks);
+    res.json(socks);
   });
 
 
