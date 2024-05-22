@@ -11,6 +11,9 @@ import './App.css'
 import Footer from './components/Footer'
 import Search from './components/Search'
 import Featured from './components/Featured'
+import TopsPage from "./components/TopsPage";
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
 
 
 function App() {
@@ -27,7 +30,7 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/tops">
                 Tops
               </Link>
               </li>
@@ -55,6 +58,7 @@ function App() {
         <hr />
         <Routes>
           <Route path="/socks" element={< SocksPage/>}/>
+          <Route path="/tops" element={< TopsPage/>}/>
     {/* <Route exact path="/" element={<Home data={data} handleDelete={handleDelete} />} /> */}
         </Routes>
             <Footer />
