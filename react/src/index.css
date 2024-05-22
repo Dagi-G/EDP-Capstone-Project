@@ -41,3 +41,25 @@
     border-radius: 2.467em;
     position: relative;
 }
+
+.product-outer {
+  height: 403px;
+}
+
+.product-inner {
+  padding: 10px;
+  height: 100%;
+  position: relative;
+}
+
+.product-inner .upper-container {
+  overflow: hidden;
+}
+
+.product-title {
+  font-weight: bold; 
+}
+
+.product-image {
+  width: 100%;
+}
