@@ -13,20 +13,15 @@ yes_or_no_list = ("Yes", "No")
 def generate_sock(sock_id):
     sock_template = {
         "id": sock_id,
-        'sockDetails': {
-            "Size": ran.choice(size_list),
-            "Color": ran.choice(color_list),
-            "Pattern": ran.choice(pattern_list),
-            "Material": ran.choice(material_list),
-            "Condition": ran.choice(condition_list),
-            "ForFoot": ran.choice(for_foot_list)
-
-        },
-        'additionalDetails': {
-            "WaterResistant": ran.choice(yes_or_no_list),
-            "Padded": ran.choice(yes_or_no_list),
-            "AntiBacterial": ran.choice(yes_or_no_list)
-        }
+        "Size": ran.choice(size_list),
+        "Color": ran.choice(color_list),
+        "Pattern": ran.choice(pattern_list),
+        "Material": ran.choice(material_list),
+        "Condition": ran.choice(condition_list),
+        "ForFoot": ran.choice(for_foot_list),
+        "WaterResistant": ran.choice(yes_or_no_list),
+        "Padded": ran.choice(yes_or_no_list),
+        "AntiBacterial": ran.choice(yes_or_no_list)
     }
     return sock_template
 

@@ -15,19 +15,14 @@ def generate_top(top_id):
     top_template = {
         "id": top_id,
         "Type": ran.choice(type_list),
-        'topDetails': {
-            "Size": ran.choice(size_list),
-            "Color": ran.choice(color_list),
-            "Pattern": ran.choice(pattern_list),
-            "Material": ran.choice(material_list),
-            "Condition": ran.choice(condition_list),
-
-        },
-        'additionalDetails': {
-            "WaterResistant": ran.choice(yes_or_no_list),
-            "Pockets": ran.choice(yes_or_no_list),
-            "AntiBacterial": ran.choice(yes_or_no_list)
-        }
+        "Size": ran.choice(size_list),
+        "Color": ran.choice(color_list),
+        "Pattern": ran.choice(pattern_list),
+        "Material": ran.choice(material_list),
+        "Condition": ran.choice(condition_list),
+        "WaterResistant": ran.choice(yes_or_no_list),
+        "Pockets": ran.choice(yes_or_no_list),
+        "AntiBacterial": ran.choice(yes_or_no_list)
     }
     return top_template
 
