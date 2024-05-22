@@ -48,3 +48,11 @@ I'll make this look better later I promise - Josh
     - When in a json file while in VSCode, formats the json file to look prettier
 2. Ctrl + J
     - When in VSCode, this toggles the terminal window
+
+## Git Process
+1. commit changes in dev branch
+2. switch to main branch
+3. pull changes from GitHub
+4. merge with dev branch
+5. switch to dev branch
+6. merge with main branch
