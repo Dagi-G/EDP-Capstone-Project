@@ -1,8 +1,8 @@
 import React from 'react';
 import Promo_data from '../assets/promo.json';
-import Promotion from './Promotion';
+import Product from './Product';
 
-const Featured = () => {
+const Home = () => {
     return (
       <>
 <h5>Featured</h5>
@@ -10,7 +10,7 @@ const Featured = () => {
 
 {
     Promo_data.map((promo) => (
-    <Promotion key={promo.id} data={promo} />
+    <Product key={promo.id} data={promo} />
     ))
 }
 </div>
@@ -19,4 +19,4 @@ const Featured = () => {
     );
 };
 
-export default Featured;
+export default Home;
