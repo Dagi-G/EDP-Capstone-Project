@@ -51,12 +51,11 @@ function App() {
         <div className="container-fluid">
           <div className="row">
             Grab the offers now!
-           <Featured />
-        <hr />
-        <Routes>
-          <Route path="/socks" element={< SocksPage/>}/>
-    {/* <Route exact path="/" element={<Home data={data} handleDelete={handleDelete} />} /> */}
-        </Routes>
+            <Featured />
+            <hr />
+            <Routes>
+              <Route path="/socks" element={< SocksPage/>}/>
+            </Routes>
             <Footer />
           </div>
         </div>
