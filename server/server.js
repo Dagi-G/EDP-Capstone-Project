@@ -31,14 +31,14 @@ app.get('/socks', async(req, res) => {
 app.get('/tops', async(req, res) => {
   const topsCollection = db.collection(process.env.TOPS_COLLECTION);
   const tops = await topsCollection.find({}).toArray();
-  res.send(tops);
+  res.json(tops);
 });
 
 // API end point for bottoms
 app.get('/bottoms', async(req, res) => {
   const bottomsCollection = db.collection(process.env.BOTTOMS_COLLECTION);
   const bottoms = await bottomsCollection.find({}).toArray();
-  res.send(bottoms);
+  res.json(bottoms);
 });
 
 app.listen(port, ()=> console.log(`Listening for requests on port ${port}`))

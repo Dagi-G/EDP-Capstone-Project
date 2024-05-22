@@ -4,6 +4,7 @@ I'll make this look better later I promise - Josh
     ```
     npm install
     ```
+2. 
 ## Database Setup Instructions
 1. Open MongoDB Compass.
 2. Click the `+` icon next to `Databases`.

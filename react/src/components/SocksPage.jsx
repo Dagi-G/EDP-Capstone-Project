@@ -2,40 +2,36 @@ import Sock from './Sock'
 import { useState, useEffect } from 'react';
 
 const SocksPage=()=> {
-    const terminate = 1;
+    const effectControl = 1;
     const [socks,setSocks] = useState([])
     useEffect( () => {
-        const fetchSocks= async ()=> {
+        const fetchSocks = async () => {
             try {
-
-            const response=await fetch(`http://localhost:3000/socks`)
-          if (!response.ok){
-            throw new Error('Socks data coundent match')
-          }
-          
-          const json_response=await response.json()
-          setSocks(json_response)
-          console.log(json_response);
+                //console.log(import.meta.env.VITE_SERVER_URL)
+                const response=await fetch(`${import.meta.env.VITE_SERVER_URL}/socks`)
+                if (!response.ok){
+                    throw new Error('Socks data coundent match')
+                }
+                const json_response = await response.json()
+                console.log(json_response)
+                setSocks(json_response)
             } catch(error){
-
                 console.error('error fatching Socks',error)
             }
         }
         fetchSocks()
-    }, terminate)
+    }, [effectControl])
     return (
-      
-       <div>
+        <div>
             <h1>All socks for sale </h1>
             <div>
-                {
-                    socks.map((sock)=>(
-                    <Sock key = {sock.id} data = {sock}/>
-                    ))
-                }
+            {
+                socks.map((sock)=>(
+                <Sock key = {sock.id}    data = {sock}/>
+                ))
+            }
             </div>
-        </div>
-       
+        </div>  
     )
 }
 export default SocksPage
