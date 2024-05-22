@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "Type": "Shorts",
+        "bottomDetails": {
+            "Size": "Large",
+            "Color": "Yellow",
+            "Pattern": "Striped",
+            "Material": "Polyester",
+            "Condition": "New"
+        },
+        "additionalDetails": {
+            "WaterResistant": "No",
+            "RearPadding": "Yes",
+            "AntiBacterial": "No"
+        }
+    },
+    {
+        "id": 2,
+        "Type": "Khaki Pants",
+        "bottomDetails": {
+            "Size": "Small",
+            "Color": "Red",
+            "Pattern": "Duck",
+            "Material": "Cotton",
+            "Condition": "Used"
+        },
+        "additionalDetails": {
+            "WaterResistant": "Yes",
+            "RearPadding": "No",
+            "AntiBacterial": "Yes"
+        }
+    },
+    {
+        "id": 3,
+        "Type": "Dress Pants",
+        "bottomDetails": {
+            "Size": "Small",
+            "Color": "Red",
+            "Pattern": "Checkered",
+            "Material": "Polyester",
+            "Condition": "Used"
+        },
+        "additionalDetails": {
+            "WaterResistant": "No",
+            "RearPadding": "Yes",
+            "AntiBacterial": "Yes"
+        }
+    },
+    {
+        "id": 4,
+        "Type": "Shorts",
+        "bottomDetails": {
+            "Size": "Medium",
+            "Color": "Green",
+            "Pattern": "Duck",
+            "Material": "Nylon",
+            "Condition": "New"
+        },
+        "additionalDetails": {
+            "WaterResistant": "No",
+            "RearPadding": "Yes",
+            "AntiBacterial": "No"
+        }
+    },
+    {
+        "id": 5,
+        "Type": "Dress Pants",
+        "bottomDetails": {
+            "Size": "Extra Large",
+            "Color": "Green",
+            "Pattern": "Checkered",
+            "Material": "Polyester",
+            "Condition": "Used"
+        },
+        "additionalDetails": {
+            "WaterResistant": "Yes",
+            "RearPadding": "No",
+            "AntiBacterial": "No"
+        }
+    }
+]

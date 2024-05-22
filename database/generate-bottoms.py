@@ -3,7 +3,7 @@ import json as json
 import shutil as sh
 
 type_list = ("Shorts", "Khaki Pants", "Dress Pants")
-size_list = ("Small", "Medium", "Large", "Duck")
+size_list = ("Small", "Medium", "Large", "Extra Large")
 color_list = ("Red", "Green", "Blue", "Yellow")
 pattern_list = ("Checkered", "Striped", "Solid", "Duck")
 material_list = ("Cotton", "Nylon", "Polyester", "Leather")
@@ -15,7 +15,7 @@ def generate_bottom(bottom_id):
     bottom_template = {
         "id": bottom_id,
         "Type": ran.choice(type_list),
-        'sockDetails': {
+        'bottomDetails': {
             "Size": ran.choice(size_list),
             "Color": ran.choice(color_list),
             "Pattern": ran.choice(pattern_list),

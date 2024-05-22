@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "Type": "Dress Shirt",
+        "topDetails": {
+            "Size": "Small",
+            "Color": "Blue",
+            "Pattern": "Checkered",
+            "Material": "Carbon Fiber",
+            "Condition": "Used"
+        },
+        "additionalDetails": {
+            "WaterResistant": "Yes",
+            "Pockets": "No",
+            "AntiBacterial": "No"
+        }
+    },
+    {
+        "id": 2,
+        "Type": "Polo Shirt",
+        "topDetails": {
+            "Size": "Large",
+            "Color": "Blue",
+            "Pattern": "Solid",
+            "Material": "Cotton",
+            "Condition": "Used"
+        },
+        "additionalDetails": {
+            "WaterResistant": "No",
+            "Pockets": "No",
+            "AntiBacterial": "No"
+        }
+    },
+    {
+        "id": 3,
+        "Type": "T-Shirt",
+        "topDetails": {
+            "Size": "Large",
+            "Color": "Red",
+            "Pattern": "Checkered",
+            "Material": "Cotton",
+            "Condition": "New"
+        },
+        "additionalDetails": {
+            "WaterResistant": "No",
+            "Pockets": "No",
+            "AntiBacterial": "Yes"
+        }
+    },
+    {
+        "id": 4,
+        "Type": "Polo Shirt",
+        "topDetails": {
+            "Size": "Small",
+            "Color": "Red",
+            "Pattern": "Solid",
+            "Material": "Nylon",
+            "Condition": "Used"
+        },
+        "additionalDetails": {
+            "WaterResistant": "No",
+            "Pockets": "No",
+            "AntiBacterial": "Yes"
+        }
+    },
+    {
+        "id": 5,
+        "Type": "T-Shirt",
+        "topDetails": {
+            "Size": "Extra Large",
+            "Color": "Yellow",
+            "Pattern": "Checkered",
+            "Material": "Cotton",
+            "Condition": "Refurbished"
+        },
+        "additionalDetails": {
+            "WaterResistant": "No",
+            "Pockets": "No",
+            "AntiBacterial": "Yes"
+        }
+    }
+]

@@ -2,7 +2,7 @@ import random as ran
 import json as json
 import shutil as sh
 
-size_list = ("Small", "Medium", "Large", "Duck")
+size_list = ("Small", "Medium", "Large", "Extra Large")
 color_list = ("Red", "Green", "Blue", "Yellow")
 pattern_list = ("Checkered", "Striped", "Solid", "Duck")
 material_list = ("Cotton", "Nylon", "Polyester", "Carbon Fiber")
