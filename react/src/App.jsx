@@ -85,7 +85,7 @@ function App() {
                   <Route exact path="/tops" element={<Tops addToCart = {addToCart} />} />
                   <Route exact path="/bottoms" element={<Bottoms addToCart = {addToCart}/>} />
                   <Route exact path="/socks" element={<Socks addToCart = {addToCart} />} />
-                  <Route exact path="/cart" element={<Cart />} />
+                  <Route exact path="/cart" element={<Cart data={cart}/> }  />
                 </Routes>
               </div>
               <Footer />
