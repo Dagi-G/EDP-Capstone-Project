@@ -9,18 +9,15 @@ import {
 import './App.css'
 import Footer from './components/Footer'
 import Search from './components/Search'
-<<<<<<< HEAD
 import Home from './components/Home'
 import Socks from "./components/Socks";
 import Tops from "./components/Tops";
 import Bottoms from "./components/Bottoms";
 import Cart from "./components/Cart";
-=======
 import Featured from './components/Featured'
 import TopsPage from "./components/TopsPage";
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
->>>>>>> 6fbef051784971f912dca2b59c6ef3d509b3cb6a
 
 
 function App() {
