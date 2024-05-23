@@ -9,18 +9,8 @@ import {
 import './App.css'
 import Footer from './components/Footer'
 import Search from './components/Search'
-<<<<<<< HEAD
-import Home from './components/Home'
-import Socks from "./components/Socks";
-import Tops from "./components/Tops";
-import Bottoms from "./components/Bottoms";
-import Cart from "./components/Cart";
-=======
-import Featured from './components/Featured'
-import TopsPage from "./components/TopsPage";
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
->>>>>>> 6fbef051784971f912dca2b59c6ef3d509b3cb6a
 
 
 function App() {
@@ -64,25 +54,16 @@ function App() {
       <main role="main">
 
         <div className="container-fluid">
-<<<<<<< HEAD
+
           <div className="row">
-<<<<<<< HEAD
-            Grab the offers now!
-            <Featured />
-            <hr />
-            <Routes>
-              <Route path="/socks" element={< SocksPage/>}/>
-            </Routes>
-=======
         <Routes>
-    <Route exact path="/" element={<Home />} />
-    <Route exact path="/tops" element={<Tops />} />
-    <Route exact path="/bottoms" element={<Bottoms />} />
-    <Route exact path="/socks" element={<Socks />} />
-</Routes>
->>>>>>> dev
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/tops" element={<Tops />} />
+            <Route exact path="/bottoms" element={<Bottoms />} />
+            <Route exact path="/socks" element={<Socks />} />
+        </Routes>
             <Footer />
-=======
+
           <div className="row products-page">
             <Routes>
               <Route exact path="/" element={<Home />} />
@@ -91,9 +72,10 @@ function App() {
               <Route exact path="/socks" element={<Socks />} />
               <Route exact path="/cart" element={<Cart />} />
             </Routes>
->>>>>>> dev
+
           </div>
           <Footer />
+          </div>
         </div>
       </main>
       </Router>
