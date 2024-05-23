@@ -1,0 +1,51 @@
+cartId,id,product,type,price,size,color,pattern,material,condition,waterResistant,antiBacterial
+1,1,bottom,Dress Pants,$35.99,Extra Large,Green,Duck,Carbon Fiber,Used,No,Yes
+2,2,sock,Calf Socks,$13.99,Medium,Green,Duck,Nylon,Used,Yes,Yes
+3,3,sock,Knee-High Socks,$11.99,Extra Large,Yellow,Duck,Carbon Fiber,Refurbished,Yes,Yes
+4,4,top,Long-Sleeved Shirt,$27.99,Small,Blue,Striped,Nylon,New,No,No
+5,5,bottom,Khaki Pants,$27.99,Large,Green,Duck,Cotton,Refurbished,Yes,No
+6,6,top,Dress Shirt,$26.99,Large,Blue,Duck,Nylon,Refurbished,Yes,No
+7,7,bottom,Shorts,$28.99,Extra Large,Yellow,Solid,Carbon Fiber,Used,No,No
+8,8,sock,Thigh-High Socks,$10.99,Extra Large,Blue,Duck,Cotton,Refurbished,No,No
+9,9,sock,Thigh-High Socks,$10.99,Large,Green,Striped,Nylon,Refurbished,Yes,Yes
+10,10,sock,Thigh-High Socks,$11.99,Large,Red,Checkered,Carbon Fiber,New,No,No
+11,11,sock,Ankle Socks,$10.99,Extra Large,Red,Solid,Polyester,New,Yes,No
+12,12,top,Polo Shirt,$29.99,Small,Red,Duck,Cotton,Refurbished,No,Yes
+13,13,bottom,Khaki Pants,$37.99,Medium,Blue,Duck,Polyester,New,Yes,Yes
+14,14,top,Long-Sleeved Shirt,$28.99,Small,Yellow,Duck,Nylon,New,Yes,Yes
+15,15,top,T-Shirt,$31.99,Extra Large,Blue,Solid,Carbon Fiber,Refurbished,Yes,No
+16,16,sock,Thigh-High Socks,$9.99,Medium,Blue,Checkered,Cotton,Refurbished,Yes,Yes
+17,17,top,Polo Shirt,$26.99,Small,Green,Duck,Cotton,Used,No,Yes
+18,18,top,Long-Sleeved Shirt,$32.99,Large,Green,Checkered,Cotton,New,Yes,Yes
+19,19,top,T-Shirt,$25.99,Small,Blue,Duck,Polyester,Refurbished,Yes,Yes
+20,20,top,Polo Shirt,$22.99,Medium,Red,Striped,Carbon Fiber,New,Yes,No
+21,21,sock,Knee-High Socks,$13.99,Extra Large,Yellow,Duck,Polyester,Used,No,Yes
+22,22,top,Dress Shirt,$19.99,Large,Yellow,Duck,Polyester,Used,No,No
+23,23,top,Dress Shirt,$25.99,Large,Green,Striped,Cotton,Used,Yes,No
+24,24,top,Dress Shirt,$25.99,Large,Blue,Striped,Nylon,Refurbished,Yes,No
+25,25,sock,Knee-High Socks,$10.99,Extra Large,Blue,Striped,Nylon,New,No,Yes
+26,26,sock,Knee-High Socks,$14.99,Large,Green,Solid,Carbon Fiber,Used,No,No
+27,27,sock,Thigh-High Socks,$11.99,Large,Yellow,Duck,Nylon,Refurbished,No,Yes
+28,28,top,T-Shirt,$34.99,Small,Blue,Striped,Carbon Fiber,Refurbished,No,No
+29,29,sock,Knee-High Socks,$13.99,Extra Large,Red,Striped,Polyester,New,Yes,No
+30,30,sock,Ankle Socks,$12.99,Large,Red,Solid,Carbon Fiber,Refurbished,No,No
+31,31,top,T-Shirt,$28.99,Large,Yellow,Solid,Carbon Fiber,Used,Yes,Yes
+32,32,top,Long-Sleeved Shirt,$30.99,Extra Large,Blue,Striped,Polyester,New,Yes,No
+33,33,top,Long-Sleeved Shirt,$28.99,Large,Red,Striped,Carbon Fiber,Refurbished,No,No
+34,34,top,Dress Shirt,$31.99,Small,Yellow,Duck,Polyester,New,No,No
+35,35,top,Polo Shirt,$24.99,Medium,Green,Striped,Nylon,Refurbished,Yes,Yes
+36,36,sock,Knee-High Socks,$10.99,Medium,Yellow,Duck,Polyester,Used,No,Yes
+37,37,sock,Knee-High Socks,$13.99,Large,Yellow,Striped,Carbon Fiber,New,No,Yes
+38,38,bottom,Khaki Pants,$35.99,Extra Large,Green,Duck,Polyester,New,Yes,Yes
+39,39,sock,Thigh-High Socks,$12.99,Small,Red,Duck,Polyester,New,No,No
+40,40,top,T-Shirt,$20.99,Small,Blue,Striped,Polyester,Used,Yes,Yes
+41,41,bottom,Dress Pants,$29.99,Medium,Yellow,Solid,Nylon,Used,Yes,No
+42,42,bottom,Khaki Pants,$29.99,Extra Large,Red,Duck,Cotton,Refurbished,Yes,Yes
+43,43,bottom,Shorts,$35.99,Small,Red,Striped,Polyester,Used,No,No
+44,44,bottom,Khaki Pants,$36.99,Medium,Yellow,Checkered,Carbon Fiber,Used,No,No
+45,45,top,Dress Shirt,$23.99,Large,Blue,Checkered,Polyester,New,No,No
+46,46,bottom,Khaki Pants,$32.99,Medium,Red,Striped,Carbon Fiber,New,No,No
+47,47,sock,Thigh-High Socks,$10.99,Small,Red,Striped,Carbon Fiber,New,No,No
+48,48,bottom,Dress Pants,$33.99,Small,Blue,Solid,Nylon,Refurbished,Yes,Yes
+49,49,bottom,Dress Pants,$30.99,Medium,Green,Striped,Nylon,Refurbished,No,No
+50,50,top,T-Shirt,$23.99,Medium,Yellow,Solid,Polyester,Refurbished,Yes,No
