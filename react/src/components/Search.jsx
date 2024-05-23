@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 
 const Search = (props) => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -15,12 +14,11 @@ const Search = (props) => {
     return (
         <form className="d-flex navbar-search" role="search" onSubmit={handleSubmit}>
             <div className="input-group">
-                {/* <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" /> */}
-                <input className="form-control me-2" type="search"
+                <input className="form-control" type="search"
                 placeholder="Search" aria-label="Search"
                 value={searchTerm} onChange={handleChange} />
                 <div className="input-btn">
-                    <button className="btn btn-secondary" type="submit"><i className="fas fa-search"></i></button>
+                    <button className="search-box-btn" type="submit"><img className="search-icon" src="/search.png" /></button>
                 </div>
             </div>
         </form>
