@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Product from './Product';
 
-const Tops = () => {
+const Tops = (props) => {
     const [tops, setTops] = useState([])
     useEffect(() => {
         const fetchTops = async () => {
@@ -28,7 +28,7 @@ const Tops = () => {
 
                 {
                     tops.map((promo) => (
-                        <Product key={promo.id} data={promo} />
+                        <Product key={promo.id} data={promo} addToCart = {props.addToCart}/>
                     ))
                 }
             </div>

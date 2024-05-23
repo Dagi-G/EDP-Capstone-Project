@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Cart = () => {
+const Cart = (props) => {
     return (
       <div>
             <h5>Cart</h5>

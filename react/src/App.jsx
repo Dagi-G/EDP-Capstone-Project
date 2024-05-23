@@ -15,6 +15,16 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 
 function App() {
+
+
+  const [cart,setCart] = useState([]);
+
+  const addToCart = (product) =>{
+    const updateCart = [...cart, product]
+    setCart(updateCart);
+    console.log("Add to cart clicked with " , updateCart);
+  };
+
   return (
     <>
       <Router>
@@ -72,9 +82,9 @@ function App() {
               <div className="card-container" >
                 <Routes>
                   <Route exact path="/" element={<Home />} />
-                  <Route exact path="/tops" element={<Tops />} />
-                  <Route exact path="/bottoms" element={<Bottoms />} />
-                  <Route exact path="/socks" element={<Socks />} />
+                  <Route exact path="/tops" element={<Tops addToCart = {addToCart} />} />
+                  <Route exact path="/bottoms" element={<Bottoms addToCart = {addToCart}/>} />
+                  <Route exact path="/socks" element={<Socks addToCart = {addToCart} />} />
                   <Route exact path="/cart" element={<Cart />} />
                 </Routes>
               </div>

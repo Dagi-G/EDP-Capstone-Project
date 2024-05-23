@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import socks from '../assets/promo.json';
 import Product from './Product';
 
-const Socks = () => {
+const Socks = (props) => {
     const [socks, setSocks] = useState([])
     useEffect(() => {
         const fetchSocks = async () => {
@@ -29,7 +29,7 @@ const Socks = () => {
 
                 {
                     socks.map((promo) => (
-                        <Product key={promo.id} data={promo} />
+                        <Product key={promo.id} data={promo} addToCart = {props.addToCart}/>
                     ))
                 }
             </div>

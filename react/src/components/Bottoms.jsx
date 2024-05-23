@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import bottoms from '../assets/promo.json';
 import Product from './Product';
 
-const Bottoms = () => {
+const Bottoms = (props) => {
     const [bottoms, setBottoms] = useState([])
     useEffect(() => {
         const fetchBottoms = async () => {
@@ -29,7 +29,7 @@ const Bottoms = () => {
 
                 {
                     bottoms.map((promo) => (
-                        <Product key={promo.id} data={promo} />
+                        <Product key={promo.id} data={promo} addToCart = {props.addToCart} />
                     ))
                 }
             </div>
