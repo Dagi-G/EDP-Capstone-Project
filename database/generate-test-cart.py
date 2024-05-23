@@ -2,6 +2,12 @@ import random as ran
 import json as json
 import shutil as sh
 
+VM_SRC_PATH = 'c:/EDP-Capstone-Project/database/cart_test_data.json'
+VM_DST_PATH = 'c:/EDP-Capstone-Project/database/database-files/cart_test_data.json'
+
+PM_SRC_PATH = 'p:/Visual-Studio-Code/EDP-Capstone-Project/database/cart_test_data.json'
+PM_DST_PATH = 'p:/Visual-Studio-Code/EDP-Capstone-Project/database/database-files/cart_test_data.json'
+
 product_list = ("sock", "top", "bottom")
 top_list = ("Polo Shirt", "T-Shirt", "Long-Sleeved Shirt", "Dress Shirt")
 bottom_list = ("Shorts", "Khaki Pants", "Dress Pants")
@@ -30,9 +36,10 @@ def selectProductType():
     elif product == "sock":
         return product, ran.choice(sock_list), ran.choice(price_socks_list)
 
-def generate_product(id):
+def generate_cart_item(id):
     product, type, price = selectProductType()
-    product_template = {
+    cart_template = {
+        "cartId": id,
         "id": id,
         "product": product,
         "type": type,
@@ -45,15 +52,20 @@ def generate_product(id):
         "waterResistant": ran.choice(yes_or_no_list),
         "antiBacterial": ran.choice(yes_or_no_list)
     }
-    return product_template
+    return cart_template
 
-product_data = [generate_product(id + 1) for id in range(50)]
-print('Successfully generated product data.')
+cart_test_data = [generate_cart_item(id + 1) for id in range(50)]
+print('Successfully generated cart test data.')
 
-with open('product_data.json', 'w') as file:
-    json.dump(product_data, file)
-print('Successfully wrote product data to json.')
+with open('cart_test_data.json', 'w') as file:
+    json.dump(cart_test_data, file)
+print('Successfully wrote cart test data to json.')
 
-sh.move('c:/EDP-Capstone-Project/database/product_data.json', 'c:/EDP-Capstone-Project/database/database-files/product_data.json')
+# Use THIS line below IF on the Virtual Machine (VM)
+sh.move(VM_SRC_PATH, VM_DST_PATH)
+
+# Use THIS line below IF on your Personal Machine (PM)
+#sh.move(PM_SRC_PATH, PM_DST_PATH)
+
 print('Successfully moved json file to database-files folder.')
 print('Script finished running!')
