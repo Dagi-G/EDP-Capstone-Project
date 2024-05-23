@@ -1,9 +1,7 @@
 import { useState, useEffect } from 'react';
-import tops from '../assets/promo.json';
 import Product from './Product';
 
 const Tops=()=> {
-    const control = 1
     const [tops,setTops] = useState([])
     useEffect( () => {
         const fetchTops= async ()=> {
@@ -21,11 +19,11 @@ const Tops=()=> {
             }
         }
          fetchTops()
-    } , [control])
+    }, [])
     return (
       
        <div>
-        <h1>All tops for sale </h1>
+        <h5>All tops for sale </h5>
 <div className="card-container d-flex flex-row justify-content-start" style={{ gap: "20px", padding: "20px" }}>
 
 {

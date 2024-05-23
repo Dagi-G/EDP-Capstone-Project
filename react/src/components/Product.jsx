@@ -19,7 +19,9 @@ const Product = (props) => {
                                     <span className="amount"> $1,999.00</span>
                                 </span>
                             </span>
-                            <a href="#" className="button add_to_cart_button">Add to cart</a>
+                            <span>
+                                <img className="add-to-cart-icon" src="/add-to-cart.png" />
+                            </span>
                         </div>
                     </div>
                 </div>
