@@ -55,6 +55,6 @@ with open('product_data.json', 'w') as file:
     json.dump(product_data, file)
 print('Successfully wrote product data to json.')
 
-sh.move('c:/EDP-Capstone-Project/database/product_data.json', 'c:/EDP-Capstone-Project/database/database-files/product_data.json')
+sh.move('c:/Desktop/EDP-Capstone-Project/database/product_data.json', 'c:/Desktop/EDP-Capstone-Project/database/database-files/product_data.json')
 print('Successfully moved json file to database-files folder.')
 print('Script finished running!')
