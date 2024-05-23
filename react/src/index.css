@@ -21,6 +21,18 @@
   text-align: center;
 }
 
+.brand-logo {
+  width: 80px;
+}
+
+.brand-name {
+  font-style: italic;
+}
+
+.products-page {
+  min-height: 84vh;
+}
+
 .navbar-search {
   width: 35%;
 }
@@ -34,11 +46,11 @@
 }
 
 .navbar-search .input-group input {
-    border-color: #fed700;
+    border-color: #eec424;
     border-width: 2px;
     border-style: solid;
     border-right: 0;
-    border-radius: 2.467em;
+    border-radius: 40px;
     position: relative;
 }
 
@@ -60,6 +72,31 @@
   font-weight: bold; 
 }
 
-.product-image {
+.product-image img {
+  overflow: hidden;
+}
+
+.cart-icon {
+  width: 70px;
+  margin-left: 25px;
+}
+
+.product-image img {
   width: 100%;
+}
+
+.search-box-btn {
+  background: #eec424;
+  border: 2px solid #eec424;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.search-icon {
+  width:50px;
+}
+
+
+.add-to-cart-icon {
+  width: 35px;
 }

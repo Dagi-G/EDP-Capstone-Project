@@ -20,11 +20,11 @@ const Bottoms=()=> {
     //         }
     //     }
     //     fetchBottoms()
-    // })
+    // }, [])
     return (
       
        <div>
-        <h1>All bottoms for sale </h1>
+        <h5>All bottoms for sale </h5>
 <div className="card-container d-flex flex-row justify-content-start" style={{ gap: "20px", padding: "20px" }}>
 
 {
