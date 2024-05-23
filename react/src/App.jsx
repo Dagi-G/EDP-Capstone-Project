@@ -10,7 +10,7 @@ import Tops from "./components/Tops";
 import Bottoms from "./components/Bottoms";
 import Cart from "./components/Cart";
 // import Featured from "./components/Featured";
-import TopsPage from "./components/TopsPage";
+//import TopsPage from "./components/TopsPage";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 
