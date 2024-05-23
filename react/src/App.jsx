@@ -9,7 +9,7 @@ import Socks from "./components/Socks";
 import Tops from "./components/Tops";
 import Bottoms from "./components/Bottoms";
 import Cart from "./components/Cart";
-import Featured from "./components/Featured";
+// import Featured from "./components/Featured";
 import TopsPage from "./components/TopsPage";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle";
@@ -67,7 +67,7 @@ function App() {
           <div className="container-fluid">
             <div className="row">
               Grab the offers now!
-              <Featured />
+             {/* <Featured /> */}
               <hr />
               <div className="row products-page">
                 <Routes>
