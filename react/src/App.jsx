@@ -69,7 +69,7 @@ function App() {
               Grab the offers now!
              {/* <Featured /> */}
               <hr />
-              <div className="row products-page">
+              <div className="card-container" >
                 <Routes>
                   <Route exact path="/" element={<Home />} />
                   <Route exact path="/tops" element={<Tops />} />

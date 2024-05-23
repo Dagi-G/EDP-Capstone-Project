@@ -3,9 +3,9 @@ import React from 'react';
 const Product = (props) => {
     return (
       
-        <div className="card">
+        <div className="card" style={{ flex: '1', minWidth: '300px', maxWidth: '45%' }}>
                 
-                <div className="product-outer">
+                <div className="card-body" >
                     <div className="product-inner">
                         <span className="upper-container">
                             <p className="product-title">{props.data.Type}</p>
