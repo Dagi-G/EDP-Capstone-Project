@@ -54,43 +54,27 @@ function App() {
             <Search />
             <Link to="/cart">
               <img className="cart-icon ml-2" src="/cart.png" />
-            </Link>  
+            </Link>
           </div>
         </div>
       </nav>
       <main role="main">
-
         <div className="container-fluid">
-<<<<<<< HEAD
           <div className="row">
-<<<<<<< HEAD
             Grab the offers now!
             <Featured />
             <hr />
-            <Routes>
-              <Route path="/socks" element={< SocksPage/>}/>
-            </Routes>
-=======
-        <Routes>
-    <Route exact path="/" element={<Home />} />
-    <Route exact path="/tops" element={<Tops />} />
-    <Route exact path="/bottoms" element={<Bottoms />} />
-    <Route exact path="/socks" element={<Socks />} />
-</Routes>
->>>>>>> dev
-            <Footer />
-=======
-          <div className="row products-page">
-            <Routes>
-              <Route exact path="/" element={<Home />} />
-              <Route exact path="/tops" element={<Tops />} />
-              <Route exact path="/bottoms" element={<Bottoms />} />
-              <Route exact path="/socks" element={<Socks />} />
-              <Route exact path="/cart" element={<Cart />} />
-            </Routes>
->>>>>>> dev
-          </div>
+            <div className="row products-page">
+              <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route exact path="/tops" element={<Tops />} />
+                <Route exact path="/bottoms" element={<Bottoms />} />
+                <Route exact path="/socks" element={<Socks />} />
+                <Route exact path="/cart" element={<Cart />} />
+              </Routes>
+            </div>
           <Footer />
+          </div>
         </div>
       </main>
       </Router>
