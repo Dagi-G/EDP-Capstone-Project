@@ -22,6 +22,7 @@ function App() {
   const addToCart = (product) =>{
     const updateCart = [...cart, product]
     setCart(updateCart);
+    alert('Item added to cart!');
     console.log("Add to cart clicked with " , updateCart);
   };
 
